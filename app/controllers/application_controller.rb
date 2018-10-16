@@ -1,5 +1,9 @@
 class ApplicationController < ActionController::Base
     def index
-        puts "<h1>Hello World</h1>"
+        render "hello2"
+    end    
+    
+    def teste
+        
     end    
 end
